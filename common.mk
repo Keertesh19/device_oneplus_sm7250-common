@@ -228,7 +228,6 @@ PRODUCT_PACKAGES += \
     gralloc.lito \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
-    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libqdMetaData.system \
     libsdmcore \
@@ -356,7 +355,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2 \
     android.hardware.nfc@1.2-service \
     com.android.nfc_extras \
-    com.gsma.services.nfc \
     QuickAccessWallet \
     NfcNci \
     SecureElement \
@@ -364,13 +362,11 @@ PRODUCT_PACKAGES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-impl \
     android.hardware.media.omx@1.0-service \
     libmm-omxcore \
     libOmxCore \
     libstagefrighthw \
     libOmxVdec \
-    libOmxVdecHevc \
     libOmxVenc \
     libc2dcolorconvert \
     libstagefright_omx.vendor
