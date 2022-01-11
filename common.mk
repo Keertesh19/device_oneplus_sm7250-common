@@ -208,6 +208,7 @@ PRODUCT_PACKAGES += \
     init.qti.qcv.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    fstab.qcom \
     ueventd.qcom.rc
 
 # Component overrides
