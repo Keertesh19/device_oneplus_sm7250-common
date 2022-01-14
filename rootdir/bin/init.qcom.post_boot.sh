@@ -1060,9 +1060,6 @@ else
     # wsf Range : 1..1000 So set to bare minimum value 1.
     echo 1 > /proc/sys/vm/watermark_scale_factor
 
-    #kswpad is bound to run on the small core of the CPU
-    echo 2 > /proc/sys/vm/kswapd_threads
-
     configure_zram_parameters
 
     configure_read_ahead_kb_values
