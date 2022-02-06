@@ -1,0 +1,23 @@
+[
+  {
+    "repository"  : "Keertesh19/hardware_oneplus",
+    "target_path" : "hardware/oneplus",
+    "branch"      : "twelve",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "PixelExperience-Devices/device_oneplus_extras",
+    "target_path" : "device/oneplus/extras",
+    "branch"      : "twelve"
+  },
+  {
+    "repository"  : "https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_oneplus_sm7250-common",
+    "target_path" : "vendor/oneplus/sm7250-common",
+    "branch"      : "twelve"
+  },
+  {
+    "repository"  : "https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_oneplus_wfdcommon",
+    "target_path" : "vendor/oneplus/wfdcommon",
+    "branch"      : "lito"
+  }
+]
