@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-arrow
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -258,6 +258,10 @@ PRODUCT_PACKAGES += \
 # Doze
 PRODUCT_PACKAGES += \
     OnePlusDoze
+
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.oneplus
 
 # DRM
 PRODUCT_PACKAGES += \
